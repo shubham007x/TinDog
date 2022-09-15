@@ -65,10 +65,14 @@ p{
 }
 /* testimonial */
 #testimonials{
-    padding:5% 13% ;
+   
     background-color:#ff4c68 ;
     text-align: center;
     color: #fff;
+}
+.carousel-item{
+    padding:5% 13% ;
+
 }
 .dogonew{
     width: 10%;
@@ -83,4 +87,16 @@ p{
     padding: 2% 2%;
     width: 15%;
     margin-bottom: 3%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+/* pricing */
+
+#pricing{
+    text-align: center;
+}
+.card{
+    color: black;
 }
