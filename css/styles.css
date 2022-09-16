@@ -4,15 +4,20 @@ body{
 }
 #title{
     background-color: #ff4c68;
-
 }
 .container-fluid{
     padding: 3% 20%;
 }
 #features{
     font-family:"Montserrat-bold";
-    margin: 5% auto;
+    margin: 0 auto;
     text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+   
+   
+z-index: index 1;
 }
 h1{
 font-family:"Montserrat-black";
@@ -57,21 +62,23 @@ p{
 .rotateImg{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 /* Features */
 .icon{
     color: #ef8172;
+    
 }
 .icon:hover{
     color: #ff4c68;;
 }
 /* testimonial */
 #testimonials{
-   
     background-color:#ff4c68 ;
     
     text-align: center;
     color: #fff;
+    position: relative;
     
 }
 .carousel-item{
