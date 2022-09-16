@@ -1,5 +1,6 @@
 body{
     font-family: "Montserrat";
+    
 }
 #title{
     background-color: #ff4c68;
@@ -21,11 +22,12 @@ font-weight: bolder;
 color:white;
 }
 h2{
-    font-family: "Montserrat-bold";
+    
     text-align: center;
-    color: #fff;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
+    font-weight: bold;
+    
     
 }
 p{
@@ -67,8 +69,10 @@ p{
 #testimonials{
    
     background-color:#ff4c68 ;
+    
     text-align: center;
     color: #fff;
+    
 }
 .carousel-item{
     padding:5% 13% ;
@@ -95,8 +99,11 @@ p{
 /* pricing */
 
 #pricing{
-    text-align: center;
+  padding: 100px;  
+    
 }
 .card{
-    color: black;
+ color: unset;
+ color: black;  
+ margin: 3% auto;
 }
