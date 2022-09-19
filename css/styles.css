@@ -67,6 +67,19 @@ p{
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
+
+}
+@media (max-width:1028px) {
+    .rotateImg{
+        position: Static;
+        transform: rotate(0);;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    
+} {
+    
 }
 /* Features */
 .icon{
